@@ -1,3 +1,7 @@
 {
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node .",
+    "prod": "NODE_ENV=production node --experimental-modules --es-module-specifier-resolution=node ."
+  }
 }
